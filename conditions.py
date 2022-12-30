@@ -10,3 +10,8 @@ else:
 
 if 16 > age or age > 65:
     print("Have fun not working")
+
+if age in range(16, 66):
+    print("I solved this in a range")
+else:
+    print("Still works here too")
